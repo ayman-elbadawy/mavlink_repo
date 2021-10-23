@@ -5,6 +5,7 @@ import mpu6050
 from mpu6050 import ACCEL_XOUT_H, ACCEL_YOUT_H, ACCEL_ZOUT_H
 from mpu6050 import GYRO_XOUT_H, GYRO_YOUT_H, GYRO_ZOUT_H
 
+
 HOST = '127.0.0.1'  # The server's IP address
 PORT = 65432  # The port used by the server
 address   = (HOST, PORT) #Tuple to store address
